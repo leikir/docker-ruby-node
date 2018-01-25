@@ -1,4 +1,4 @@
-FROM ruby:2.3.5-alpine
+FROM ruby:2.3.3-alpine
 
 ENV NODE_VERSION 6.9.4
 
