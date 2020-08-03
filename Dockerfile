@@ -1,5 +1,5 @@
 FROM node:10.16.0-stretch-slim AS nodejs
-FROM ruby:2.6.3-slim-stretch
+FROM ruby:2.6.6-slim-stretch
 
 ENV NODE_VERSION 10.16.0
 
