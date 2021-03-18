@@ -1,7 +1,7 @@
-FROM node:10.16.0-stretch-slim AS nodejs
-FROM ruby:2.6.6-slim-stretch
+FROM node:15.11.0-stretch-slim AS nodejs
+FROM ruby:3.0.0-slim-buster
 
-ENV NODE_VERSION 10.16.0
+ENV NODE_VERSION 15.11.0
 
 ENV LANG C.UTF-8
 
